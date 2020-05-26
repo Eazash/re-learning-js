@@ -26,7 +26,7 @@ body {
 }
 
 .budget {
-    position:  absolute;
+    position:  relative;
     top: 50%;
     left:50%;
     width: 350px;
@@ -75,4 +75,38 @@ box-shadow: 1px 3px 6px 0px #000;
     text-align: center;
     background-color: rgba(255,255,255,0.35);
     border-radius: 3px;
+}
+
+
+.add {
+    padding: 14px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.add_container {
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+input,select, button{
+    border: 1px solid #e7e7e7;
+    margin-right: 10px;
+    border-radius: 6px;
+    /* align-self: ; */
+    min-width: 55px;
+    transition: border 0.5s;
+    padding: 10px 15px;
+    vertical-align: middle;
+}
+input:focus , select:focus{
+    /* border-radius: ; */
+    border: 1px solid #ff4500;
+}
+input:focus, select:focus, button:focus{
+    outline: none;
+
+}
+.add_btn {
+    font-size: 20px;
+    border-radius: 100%;
+    padding: 3px;
 }
