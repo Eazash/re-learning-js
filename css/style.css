@@ -83,7 +83,7 @@ body {
     text-align: center;
     align-items: center;
 }
-input,select, button{
+input,select,button{
     border: 1px solid #e7e7e7;
     margin-right: 10px;
     border-radius: 6px;
@@ -113,35 +113,36 @@ input:focus, select:focus, button:focus{
     margin: 60px auto;
     padding: 15px;
 }
-/* .income {
-    max-width: 475px;
-    margin-right: 50px;
-}
-.expenses {
-    max-width: 475px;
-} */
-.income, .expenses{
+.income_title, .expenses_title{
     min-width: 475px;
     border-bottom: 1px solid #e7e7e7;
     text-align: center;
 }
 .income {
-    margin-right: 15px;
+    margin-right: 20px;
 }
 h2 {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 400;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .item {
     width: 100%;
+    border-bottom: 1px solid #e7e7e7;
+    padding:10px 5px 5px 5px ;
+}
+.item:last-child{
+    border: none;
+}
+.item:nth-child(even){
+    background-color: #f7f7f7;
 }
 i{
     font-family: 'Courier New', Courier, monospace !important;
 }
 .gapping > * {
-    margin-left: 10px;
+    margin: auto 0 auto 10px;
 }
 .item_percentage {
     background-color: rgba(255, 166, 0, 0.25);
